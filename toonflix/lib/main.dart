@@ -7,7 +7,7 @@ void main() {
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
         backgroundColor: Color(0xFF181818),
         body: Padding(
@@ -34,7 +34,7 @@ class App extends StatelessWidget {
                       Text(
                         'Welcome back',
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.white.withOpacity(0.8),
                           fontSize: 18,
                           fontWeight: FontWeight.w600,
                         ),
