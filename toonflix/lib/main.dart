@@ -113,7 +113,7 @@ class App extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(
-                  height: 10,
+                  height: 1,
                 ),
                 CurrencyCards(
                   cards: [
